@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015", // Specifies ECMAScript target version (ES6 or later)
+    "module": "commonjs", // CommonJS module system (used by Node.js)
+    "lib": ["es2015"], // Include ES6 library, enabling Set, Map, etc.
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Enable compatibility with ES6 modules
+    "skipLibCheck": true // Skip type checks for libraries
+  },
+  "include": ["./**/*.ts"], // Specify which files to include in the compilation
+  "exclude": ["node_modules"] // Exclude node_modules to avoid compiling dependencies
+}
